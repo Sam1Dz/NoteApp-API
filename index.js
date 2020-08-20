@@ -24,7 +24,7 @@ app.listen(port, () =>
     'Server started at PORT "' +
       port +
       '" [' +
-      time().format("DD/MM/YYYY HH:mm:ss") +
+      time().format("YYYY/MM/DD HH:mm:ss") +
       " UTC+7]"
   )
 );
